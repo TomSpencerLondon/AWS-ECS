@@ -1,7 +1,7 @@
 #### Practice with ECS
 Using this article:
 https://mydeveloperplanet.com/2021/09/07/how-to-deploy-a-spring-boot-app-on-aws-ecs-cluster/
-
+https://medium.com/@postullat2/how-to-deploy-the-spring-boot-app-at-aws-ecs-8f81d1b045c7
 
 #### Build project + Docker image
 ```bash
@@ -111,6 +111,10 @@ Navigate to the EC2 service and copy the public URL of the EC2 instance. Use thi
 $ curl http://ec2-13-36-172-189.eu-west-3.compute.amazonaws.com:8080/hello
 Hello AWS! From host: a035a951c3c8/172.17.0.2
 ```
+
+Also see:
+https://mydeveloperplanet.com/2021/10/12/how-to-deploy-a-spring-boot-app-on-aws-fargate/
+
 
 
 
